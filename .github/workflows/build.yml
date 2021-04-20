@@ -13,19 +13,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build_latex:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: platex Action
-      # You may pin to the exact commit or the version.
-      # uses: ompugao/platex-action@b78e1f2b84260be07d00b764c1c4da6c56902d59
-        uses: ompugao/platex-action@v0.0.8
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Compile LaTeX document
+        uses: dante-ev/latex-action@latest
         with:
-          # Compile Tex File
-          LATEX_FILE_NAME: capstone.tex # default is main.tex
+          root_file: capstone.tex
