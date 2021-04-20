@@ -26,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: capstone
-          path: ./build/capstone.pdf
+          path: ./.github/workflows/capstone.pdf
