@@ -1,4 +1,6 @@
 \documentclass[letterpaper,12pt]{report}
+%\documentclass[conference]{IEEEtran}
+\usepackage{cite}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{fancyhdr,tocloft,natbib,url,graphicx,float,listings,sidecap,wrapfig}
 \usepackage[font=small,labelfont=bf,labelsep=period]{caption}
@@ -36,7 +38,9 @@
 \setlength\cftafterloftitleskip{-0.5in}
 \setlength\cftafterlottitleskip{-0.5in}
 
-\renewcommand\bibsection{\section{References}}
+%\renewcommand\bibsection{\section{References}}
+
+
 
 \begin{document}
 
@@ -53,12 +57,12 @@
 \setcounter{page}{1}
 \pagenumbering{roman}
 \renewcommand\arraystretch{1.5}
-
-%% ABSTRACT
 \section*{Abstract}
 \addcontentsline{toc}{section}{Abstract}
 Austin Klum, J., ``Immersive Quiz for Spanish Learners,'' Master of Software Engineering, May 2022, (Elliot Forbes, Ph.D.). \\
 
+
+%% ABSTRACT
 This manuscript describes the development of a quiz creation tool combined with a virtual reality component to provide an immersive quiz taking experience for Spanish learners. The quizzes also have an orienteering course aspect as well, where each quiz is comprised of multiple timed locations where all questions must be completed correctly before continuing onto the next location. 
 \clearpage
 
@@ -101,16 +105,26 @@ I would like to express my thanks to the Department of Computer Science at the U
 \IfFileExists{Testing/Testing}{\input{Testing/Testing}}{}\clearpage
 \IfFileExists{Conclusion/Conclusion}{\input{Conclusion/Conclusion}}{}\clearpage
 
+An article \cite{anarticle}\\
+A book \cite{abook}\\
+A series \cite{bookseries}\\
+Someone's thesis \cite{thesis}\\
+Some technical report \cite{report}\\
+A collection \cite{collection}\\
+Visited website \cite{website}\\
+Accepted for publication \cite{acceptedpub}\\
+Submitted for publication \cite{unpub}\\
+Not published \cite{notpub}\\
+Conversation \cite{conv}
+
 %% BIBLIOGRAPHY
-\section{Bibliography}
-\label{sec:bibliography}
-\input{Biblography}
-\clearpage
+%\label{sec:bibliography}
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{IEEEtran}
+\bibliography{Bibliography}
 
 
-%%% APPENDICES
-\section{Appendices}
-\label{sec:appendices}
 \clearpage
+
 
 \end{document}
