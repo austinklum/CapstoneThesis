@@ -21,6 +21,15 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{orienteering}
+``Orienteering,'' [Online]. Available:
+  \url{https://www.merriam-webster.com/dictionary/orienteering/}.
+
+\bibitem{waterfall}
+L.~Hoory, ``What is waterfall methodology? here's how it can help your project
+  management strategy,'' 25-Mar-2022. [Online]. Available:
+  \url{https://www.forbes.com/advisor/business/what-is-waterfall-methodology/}.
+
 \bibitem{anarticle}
 A.~B. Cummings, D.~Eftekhary, and F.~G. House, ``The accurate determination of
   college students’ coefficients of friction,'' \emph{Journal of Sketchy
