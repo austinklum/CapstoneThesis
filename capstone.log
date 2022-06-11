@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  8 JUN 2022 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  10 JUN 2022 21:54
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -700,7 +700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 [2
 
 ]
-<Requirements/assets/course-use-case-diagram.png, id=207, 595.22375pt x 533.995
+<Requirements/assets/course-use-case-diagram.png, id=212, 595.22375pt x 533.995
 pt>
 File: Requirements/assets/course-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/course-use-case-diagram.png>
@@ -713,15 +713,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
  []
 
 [3 <./Requirements/assets/course-use-case-diagram.png (PNG copy)>]
-<Requirements/assets/vr-use-case-diagram.png, id=215, 595.22375pt x 533.995pt>
+<Requirements/assets/vr-use-case-diagram.png, id=220, 595.22375pt x 533.995pt>
 File: Requirements/assets/vr-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/vr-use-case-diagram.png>
 Package pdftex.def Info: Requirements/assets/vr-use-case-diagram.png  used on i
 nput line 44.
 (pdftex.def)             Requested size: 234.8775pt x 210.7098pt.
 ) [4 <./Requirements/assets/vr-use-case-diagram.png (PNG copy)>] (Design/Design
-.tex)
-[5
+.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+) [5
 
 ] (Testing/Testing.tex) [6
 
@@ -730,41 +734,46 @@ nput line 44.
 ] (capstone.bbl
 [8
 
-]) [9
-
 ]
+Underfull \hbox (badness 4279) in paragraph at lines 42--44
+[]\OT1/cmr/m/n/12 ``Common de-sign prin-ci-ples,'' [On-line]. Avail-able: []$ht
+tps : / / docs . microsoft . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\OT1/cmr/m/n/12 en-[]us / dotnet / architecture / modern-[]web-[]apps-[]azure /
+ architectural-[]principles #
+ []
+
+[9
+
+]) [10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (capstone.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
-
-
-Package rerunfilecheck Warning: File `capstone.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `capstone.out':
-(rerunfilecheck)             Before: 656FED377FA2BCFEC0A333109E246D70;1712
-(rerunfilecheck)             After:  EA017E78BC4A60735C6B2426A31B81F5;1809.
+Package rerunfilecheck Info: File `capstone.out' has not changed.
+(rerunfilecheck)             Checksum: E3ECD6D0F69A42E6451920AE077EEEE9;1814.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 9749 strings out of 492484
- 149231 string characters out of 3131958
- 254584 words of memory out of 3000000
- 13814 multiletter control sequences out of 15000+200000
+ 9757 strings out of 492484
+ 149368 string characters out of 3131958
+ 254696 words of memory out of 3000000
+ 13818 multiletter control sequences out of 15000+200000
  10413 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,45p,1935b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,45p,1935b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Prog
 rams/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/MiTek
 2.9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on capstone.pdf (17 pages, 185482 bytes).
+Output written on capstone.pdf (18 pages, 191369 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

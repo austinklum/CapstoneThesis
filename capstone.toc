@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {2.4.2.}Virtual Reality Orienteering Flow}{4}{subsubsection.0.2.4.2}%
 \contentsline {section}{\numberline {3.}Design}{5}{section.0.3}%
 \contentsline {subsection}{\numberline {3.1.}Overview}{5}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {3.2.}Point 1}{5}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.2.}Technologies}{5}{subsection.0.3.2}%
 \contentsline {subsection}{\numberline {3.3.}Point 2}{5}{subsection.0.3.3}%
 \contentsline {section}{\numberline {4.}Testing}{6}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1.}Overview}{6}{subsection.0.4.1}%
