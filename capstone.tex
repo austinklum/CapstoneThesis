@@ -47,7 +47,8 @@
 
 \usepackage{color}
 \usepackage{listings}
-
+\usepackage{parskip}
+\addtolength{\parskip}{\baselineskip}
 \lstloadlanguages{% Check Dokumentation for further languages ...
 	C,
 	C++,
@@ -74,9 +75,11 @@
 	showspaces=false,
 	showtabs=false,
 	xleftmargin=17pt,
+	xrightmargin=10pt,
 	framexleftmargin=17pt,
 	framexrightmargin=5pt,
-	framexbottommargin=4pt,
+	framexbottommargin=14pt,
+	belowskip=5pt,
 	commentstyle=\color{green},
 	morecomment=[l]{//}, %use comment-line-style!
 	morecomment=[s]{/*}{*/}, %for multiline comments

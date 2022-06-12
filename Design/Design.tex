@@ -17,27 +17,29 @@ ASP.NET Core MVC was chosen because of the developer's prior experience and the 
 \subsubsection{Virtual Reality Orienteering}
 Unity is a cross-platform game engine developed by Unity Technologies with the goal to provide developers with the tools to make game development simple. Unity supports a vast variety of platforms and user experiences. These tools extend to desktop, mobile, console, and virtual reality with support for 2D, 3D, and other experiences. It's also used in other areas outside of game development such as film, engineering, architecture, and automotive modeling. This makes Unity a popular choice, not only for the developer of this project, but for the world at large. \qquote{In the fourth quarter of 2021, Unity had, on average, 3.9 billion monthly active end users who consumed content created or operated with its solutions.}{unityNumbers} \\
 \\
-The basic components of a game developed in Unity are GameObjects, Assets, Scenes, and Scripts. Every object in a game is a GameObject. Assets are reusable items that can be used throughout the game. They can be of any file type that Unity supports, such as a 3D model, audio file, image. Oftentimes these assets come from outside Unity, created by the developer or other developers which are found in the Asset Store. Scenes contain the objects of the game. Oftentimes these are split into logical groupings such as main menu, individual levels, or the environment. Scripts are what controls the behavior of the GameObjects. Without scripts the game would be static and have no interaction or logic. Unity supports \C natively and is the standard used for scripting. A new script has two functions, 
+The basic components of a game developed in Unity are GameObjects, Assets, Scenes, and Scripts. Every object in a game is a GameObject. Assets are reusable items that can be used throughout the game. They can be of any file type that Unity supports, such as a 3D model, audio file, image. Oftentimes these assets come from outside Unity, created by the developer or other developers which are found in the Asset Store. Scenes contain the objects of the game. Oftentimes these are split into logical groupings such as main menu, individual levels, or the environment. Scripts are what controls the behavior of the GameObjects. Without scripts the game would be static and have no interaction or logic. Unity supports \C natively and is the standard used for scripting. A new script has two functions, \lstinline{Start()} and \lstinline{Update()}. \lstinline{Start()} is called once by Unity before gameplay begins which is used to setup initial configurations. \lstinline{Update()} is called once per frame update for the GameObject. This is used to handle anything that needs to be done over time in the gameplay, such as movement, triggering actions, or responding to user input.  
 
-\begin{lstlisting}[caption=New Script in Unity, label=lst:New Unity Script]
+\begin{lstlisting}[caption=New Script in Unity]
 using UnityEngine;
 using System.Collections;
 
 public class NewBehaviourScript : MonoBehaviour {
 
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
 	
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void Update() 
 	{
 	
 	}
 }
 \end{lstlisting}
+
+Unity XR Interaction Toolkit is a cross-platform plugin used for virtual and augmented reality. XR Interaction Toolkit provides easy built-in functionality to select, grab, throw, rotate objects within a VR scene. This also extends to the UI interactions and the haptic feedback that comes with it. The ability to look around and move within the worldspace is also provided with this plugin.
 
 \subsection{Point 2}
 This gives Point 2

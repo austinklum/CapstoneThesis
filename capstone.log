@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  11 JUN 2022 19:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  11 JUN 2022 19:37
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -521,33 +521,40 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
+(D:\Programs\MiTek2.9.7269\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(D:\Programs\MiTek2.9.7269\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count128
+))
 (D:\Programs\MiTek2.9.7269\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (D:\Programs\MiTek2.9.7269\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-Package color Info: Redefining color red on input line 58.
-Package color Info: Redefining color blue on input line 59.
-Package color Info: Redefining color green on input line 60.
-Package color Info: Redefining color cyan on input line 61.
+Package color Info: Redefining color red on input line 59.
+Package color Info: Redefining color blue on input line 60.
+Package color Info: Redefining color green on input line 61.
+Package color Info: Redefining color cyan on input line 62.
  (capstone.aux)
 \openout1 = `capstone.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -585,23 +592,23 @@ LaTeX Font Info:    ... okay on input line 117.
 
 (D:\Programs\MiTek2.9.7269\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count129
 \scratchdimen=\dimen149
 \scratchbox=\box58
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count130
+\nofMParguments=\count131
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count131
+\MPscratchCnt=\count132
 \MPscratchDim=\dimen150
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
 \everyMPtoPDFconversion=\toks27
 ) (D:\Programs\MiTek2.9.7269\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-\c@lstlisting=\count134
+\c@lstlisting=\count135
 
 (D:\Programs\MiTek2.9.7269\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
@@ -632,7 +639,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 117.
+Package hyperref Info: Link coloring OFF on input line 120.
 
 (D:\Programs\MiTek2.9.7269\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -643,17 +650,17 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 (D:\Programs\MiTek2.9.7269\tex/generic/oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 117.
-LaTeX Info: Redefining \pageref on input line 117.
-LaTeX Info: Redefining \nameref on input line 117.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
 
 (capstone.out) (capstone.out)
 \@outlinefile=\write3
 \openout3 = `capstone.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 119.
+Package hyperref Info: Option `pageanchor' set `false' on input line 122.
  (cover.tex [1
 
 {C:/Users/Austin Klum/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (sig
@@ -665,9 +672,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 ) [1
 
 ]
-Package hyperref Info: Option `pageanchor' set `true' on input line 128.
+Package hyperref Info: Option `pageanchor' set `true' on input line 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
@@ -703,7 +710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 ] (glossary.tex) [7
 
 ] (Introduction/Introduction.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--180
+Underfull \hbox (badness 10000) in paragraph at lines 5--183
 
  []
 
@@ -801,23 +808,23 @@ g to unity gam-
 [11
 
 ]) [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
  (capstone.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `capstone.out' has not changed.
 (rerunfilecheck)             Checksum: 58097E6D154BB26CA343E656323571BA;2042.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 10284 strings out of 492484
- 154975 string characters out of 3131958
- 457608 words of memory out of 3000000
- 14305 multiletter control sequences out of 15000+200000
+ 10616 strings out of 492484
+ 159054 string characters out of 3131958
+ 461047 words of memory out of 3000000
+ 14630 multiletter control sequences out of 15000+200000
  10889 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,45p,2436b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,45p,2436b,1816s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Prog
 rams/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/MiTek
 2.9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/fo
@@ -825,7 +832,7 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
 ublic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on capstone.pdf (21 pages, 230764 bytes).
+Output written on capstone.pdf (21 pages, 231478 bytes).
 PDF statistics:
  396 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
