@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  8 JUN 2022 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  13 JUN 2022 16:52
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -512,23 +512,50 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \algorithmicindent=\skip164
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 26.
+
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics\color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(D:\Programs\MiTek2.9.7269\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(D:\Programs\MiTek2.9.7269\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count128
+))
+(D:\Programs\MiTek2.9.7269\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(D:\Programs\MiTek2.9.7269\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Package color Info: Redefining color red on input line 59.
+Package color Info: Redefining color blue on input line 60.
+Package color Info: Redefining color green on input line 61.
+Package color Info: Redefining color cyan on input line 62.
  (capstone.aux)
 \openout1 = `capstone.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -565,23 +592,23 @@ LaTeX Font Info:    ... okay on input line 45.
 
 (D:\Programs\MiTek2.9.7269\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count129
 \scratchdimen=\dimen149
 \scratchbox=\box58
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count130
+\nofMParguments=\count131
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count131
+\MPscratchCnt=\count132
 \MPscratchDim=\dimen150
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
 \everyMPtoPDFconversion=\toks27
 ) (D:\Programs\MiTek2.9.7269\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-\c@lstlisting=\count134
+\c@lstlisting=\count135
 
 (D:\Programs\MiTek2.9.7269\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
@@ -612,7 +639,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 120.
 
 (D:\Programs\MiTek2.9.7269\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -623,17 +650,17 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 (D:\Programs\MiTek2.9.7269\tex/generic/oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
 
 (capstone.out) (capstone.out)
 \@outlinefile=\write3
 \openout3 = `capstone.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 47.
+Package hyperref Info: Option `pageanchor' set `false' on input line 122.
  (cover.tex [1
 
 {C:/Users/Austin Klum/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (sig
@@ -645,9 +672,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 ) [1
 
 ]
-Package hyperref Info: Option `pageanchor' set `true' on input line 56.
+Package hyperref Info: Option `pageanchor' set `true' on input line 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
@@ -673,10 +700,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  [5
 
-] (glossary.tex) [6
+] (capstone.lol)
+\tf@lol=\write7
+\openout7 = `capstone.lol'.
 
-] (Introduction/Introduction.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--102
+[6
+
+
+] (glossary.tex [7
+
+]) [8] (Introduction/Introduction.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 5--183
 
  []
 
@@ -700,7 +734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 [2
 
 ]
-<Requirements/assets/course-use-case-diagram.png, id=207, 595.22375pt x 533.995
+<Requirements/assets/course-use-case-diagram.png, id=299, 595.22375pt x 533.995
 pt>
 File: Requirements/assets/course-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/course-use-case-diagram.png>
@@ -713,58 +747,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
  []
 
 [3 <./Requirements/assets/course-use-case-diagram.png (PNG copy)>]
-<Requirements/assets/vr-use-case-diagram.png, id=215, 595.22375pt x 533.995pt>
+<Requirements/assets/vr-use-case-diagram.png, id=308, 595.22375pt x 533.995pt>
 File: Requirements/assets/vr-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/vr-use-case-diagram.png>
 Package pdftex.def Info: Requirements/assets/vr-use-case-diagram.png  used on i
 nput line 44.
 (pdftex.def)             Requested size: 234.8775pt x 210.7098pt.
 ) [4 <./Requirements/assets/vr-use-case-diagram.png (PNG copy)>] (Design/Design
-.tex)
+.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+
+ []
+
 [5
 
-] (Testing/Testing.tex) [6
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
-] (Conclusion/Conclusion.tex) [7
+ []
 
-] (capstone.bbl
-[8
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
 
-]) [9
+Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
+[][][][][][][] 
+ []
+
+[6] [7]) [8] (Implementation/Implementation.tex) [9
+
+] (Testing/Testing.tex)
+[10
+
+] (Conclusion/Conclusion.tex) [11
+
+] (capstone.bbl [12
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Underfull \hbox (badness 4279) in paragraph at lines 42--44
+[]\OT1/cmr/m/n/12 ``Common de-sign prin-ci-ples,'' [On-line]. Avail-able: []$ht
+tps : / / docs . microsoft . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\OT1/cmr/m/n/12 en-[]us / dotnet / architecture / modern-[]web-[]apps-[]azure /
+ architectural-[]principles #
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 50--53
+[]\OT1/cmr/m/n/12 ``Gaming poised to con-tinue ac-cel-er-ated growth ac-cord-in
+g to unity gam-
+ []
+
+[13
+
+]) [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (capstone.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
-
-
-Package rerunfilecheck Warning: File `capstone.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `capstone.out':
-(rerunfilecheck)             Before: 656FED377FA2BCFEC0A333109E246D70;1712
-(rerunfilecheck)             After:  EA017E78BC4A60735C6B2426A31B81F5;1809.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package rerunfilecheck Info: File `capstone.out' has not changed.
+(rerunfilecheck)             Checksum: 6246A314F7B3AB04F3130C8774E24F6D;2741.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 9749 strings out of 492484
- 149231 string characters out of 3131958
- 254584 words of memory out of 3000000
- 13814 multiletter control sequences out of 15000+200000
- 10413 words of font info for 36 fonts, out of 3000000 for 9000
+ 10658 strings out of 492484
+ 159786 string characters out of 3131958
+ 461047 words of memory out of 3000000
+ 14642 multiletter control sequences out of 15000+200000
+ 10889 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,45p,1935b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,45p,2436b,1816s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Prog
 rams/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/MiTek
 2.9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on capstone.pdf (17 pages, 185482 bytes).
+ublic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb>
+Output written on capstone.pdf (24 pages, 243144 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
