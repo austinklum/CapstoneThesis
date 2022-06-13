@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  13 JUN 2022 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  13 JUN 2022 17:09
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -734,7 +734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 [2
 
 ]
-<Requirements/assets/course-use-case-diagram.png, id=299, 595.22375pt x 533.995
+<Requirements/assets/course-use-case-diagram.png, id=294, 595.22375pt x 533.995
 pt>
 File: Requirements/assets/course-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/course-use-case-diagram.png>
@@ -747,7 +747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
  []
 
 [3 <./Requirements/assets/course-use-case-diagram.png (PNG copy)>]
-<Requirements/assets/vr-use-case-diagram.png, id=308, 595.22375pt x 533.995pt>
+<Requirements/assets/vr-use-case-diagram.png, id=303, 595.22375pt x 533.995pt>
 File: Requirements/assets/vr-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/vr-use-case-diagram.png>
 Package pdftex.def Info: Requirements/assets/vr-use-case-diagram.png  used on i
@@ -822,31 +822,28 @@ Package rerunfilecheck Warning: File `capstone.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `capstone.out':
-(rerunfilecheck)             Before: 6246A314F7B3AB04F3130C8774E24F6D;2741
-(rerunfilecheck)             After:  2414EDC6577438898CD0044330D5CB31;2708.
+(rerunfilecheck)             Before: 2414EDC6577438898CD0044330D5CB31;2708
+(rerunfilecheck)             After:  13B1548994F395E78DED2F2798AD894D;3481.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 10658 strings out of 492484
- 159786 string characters out of 3131958
+ 10666 strings out of 492484
+ 159962 string characters out of 3131958
  461047 words of memory out of 3000000
- 14642 multiletter control sequences out of 15000+200000
+ 14641 multiletter control sequences out of 15000+200000
  10889 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,45p,2436b,1816s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.0.4.4} has been referenced but does no
-t exist, replaced by a fixed one
-
-<D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Progra
-ms/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/MiTek2.
-9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/font
-s/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts
-/cm/cmti12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb>
-Output written on capstone.pdf (24 pages, 243313 bytes).
+<D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Prog
+rams/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/MiTek
+2.9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb>
+Output written on capstone.pdf (24 pages, 244726 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 355 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 
