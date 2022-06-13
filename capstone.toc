@@ -24,19 +24,20 @@
 \contentsline {subsubsection}{\numberline {3.3.1.}Course Creator}{7}{subsubsection.0.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2.}Virtual Reality Orienteering}{7}{subsubsection.0.3.3.2}%
 \contentsline {subsection}{\numberline {3.4.}Database}{7}{subsection.0.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.}Database Schema}{7}{subsubsection.0.3.4.1}%
 \contentsline {subsection}{\numberline {3.5.}Communication between Programs}{7}{subsection.0.3.5}%
-\contentsline {section}{\numberline {4.}Implementation}{8}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1.}Overview}{8}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2.}Point 1}{8}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3.}Point 2}{8}{subsection.0.4.3}%
-\contentsline {subsection}{\numberline {4.4.}Point 3}{8}{subsection.0.4.4}%
-\contentsline {section}{\numberline {5.}Testing}{9}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1.}Overview}{9}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2.}Point 1}{9}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {5.3.}Point 2}{9}{subsection.0.5.3}%
-\contentsline {subsection}{\numberline {5.4.}Point 3}{9}{subsection.0.5.4}%
-\contentsline {section}{\numberline {6.}Conclusion}{10}{section.0.6}%
-\contentsline {subsection}{\numberline {6.1.}Overview}{10}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {6.2.}Point 1}{10}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {6.3.}Point 2}{10}{subsection.0.6.3}%
-\contentsline {section}{Bibliography}{11}{subsection.0.6.3}%
+\contentsline {section}{\numberline {4.}Implementation}{9}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1.}Overview}{9}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2.}Point 1}{9}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3.}Point 2}{9}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4.}Point 3}{9}{subsection.0.4.4}%
+\contentsline {section}{\numberline {5.}Testing}{10}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1.}Overview}{10}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2.}Point 1}{10}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {5.3.}Point 2}{10}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {5.4.}Point 3}{10}{subsection.0.5.4}%
+\contentsline {section}{\numberline {6.}Conclusion}{11}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1.}Overview}{11}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2.}Point 1}{11}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3.}Point 2}{11}{subsection.0.6.3}%
+\contentsline {section}{Bibliography}{12}{subsection.0.6.3}%
