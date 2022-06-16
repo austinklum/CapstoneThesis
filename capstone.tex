@@ -57,9 +57,10 @@
 }
 
 \definecolor{red}{rgb}{0.6,0,0} % for strings
-\definecolor{blue}{rgb}{0,0,0.6}
-\definecolor{green}{rgb}{0,0.8,0}
-\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{blue}{rgb}{0,0,1}
+\definecolor{green}{rgb}{0,0.502,0}
+\definecolor{cyan}{rgb}{.167,.568,.686}
+\definecolor{black}{rgb}{0,0,0}
 
 \lstset{
 	language=csh,
@@ -71,7 +72,7 @@
 	extendedchars=true,
 	breaklines=true,
 	frame=b,
-	stringstyle=\color{blue}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
 	showspaces=false,
 	showtabs=false,
 	xleftmargin=17pt,
@@ -104,8 +105,8 @@
 		double, lock, stackalloc,
 		else, long, static,
 		enum, namespace, string},
-	keywordstyle=\color{cyan},
-	identifierstyle=\color{red},
+	keywordstyle=\color{blue},
+	identifierstyle=\color{cyan},
 }
 \usepackage{caption}
 \DeclareCaptionFont{white}{\color{white}}

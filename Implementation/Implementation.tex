@@ -8,7 +8,16 @@ This section goes into details on the implementation of the Course Creator and V
 The Course Creator's primary responsibilities is creating courses and viewing results of those courses. Courses are comprised of locations, questions, and answers; each course has many locations, each location has many questions, and each question has many answers. 
 
 \subsubsection{Authorization}
+The Course Creator uses ASP.NET Core Identity to secure the application. This tool makes creating the registration and login pages simple, and has built-in security for securely storing passwords and other personal user data. ASP.NET Core Identity also makes use of user roles to ensure the user is authorized to do certain actions. The verified user role is an example of this in the project. Using a filter on the protected controllers is simple with Identity.
+\begin{lstlisting}[caption=Securing Controllers using Filter on User Role, label=lst:FilterUserRole]
+using Microsoft.AspNetCore.Authorization;
 
+[Authorize(Roles = "Verified")]
+public class HomeController : Controller
+{
+	...
+}
+\end{lstlisting} 
 \subsubsection{Courses}
 
 \subsubsection{Locations}
