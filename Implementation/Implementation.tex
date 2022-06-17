@@ -19,8 +19,17 @@ public class HomeController : Controller
 }
 \end{lstlisting} 
 \subsubsection{Courses}
-The course is the high level object with which the locations, questions, and answers become associated with. A course can be added, updated, or deleted. The \lstinline{CoursesController} handles all of these actions. 
+The course is the high level object with which the locations, questions, and answers become associated with. A course can be added, updated, or deleted. The \lstinline{CoursesController} handles all of these actions. Each of these actions has a corresponding View Razor page. 
+\begin{lstlisting}[caption=Course Model, label=lst:CourseModel]
+public class Course
+{
+	public int CourseId { get; set; }
+	
+	[DisplayName("Name")]
+	public string Name { get; set; }
 
+}
+\end{lstlisting}
 \subsubsection{Locations}
 
 \subsubsection{Questions}

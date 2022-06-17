@@ -85,7 +85,7 @@
 	morecomment=[l]{//}, %use comment-line-style!
 	morecomment=[s]{/*}{*/}, %for multiline comments
 	showstringspaces=false,
-	morekeywords={ abstract, event, new, struct,
+	morekeywords=[1]{ abstract, event, new, struct,
 		as, explicit, null, switch,
 		base, extern, object, this,
 		bool, false, operator, throw,
@@ -104,8 +104,10 @@
 		do, is, sizeof, while,
 		double, lock, stackalloc,
 		else, long, static,
-		enum, namespace, string},
-	keywordstyle=\color{blue},
+		enum, namespace, string, get, set},
+	keywordstyle=[1]\color{blue},
+	morekeywords=[2]{get, set},
+	keywordstyle=[2]\color{red},
 	identifierstyle=\color{cyan},
 }
 \usepackage{caption}
