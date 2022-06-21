@@ -26,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: capstone
-          path: /Output/capstone.pdf
+          path: capstone.pdf
