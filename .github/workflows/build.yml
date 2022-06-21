@@ -25,5 +25,4 @@ jobs:
           root_file: capstone.tex
       - name: Gather build artifacts
         run: |
-          mkdir Output
           mv capstone.pdf Output/
