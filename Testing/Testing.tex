@@ -2,13 +2,18 @@
 \label{sec:Testing}
 
 \subsection{Overview} 
-This gives a brief overview of this section.
+This section describes the testing done to verify and validate that the Course Creator and Virtual Reality Orienteering programs are correct and can handle invalid or malicious input. As part of the iterative design for agile, the programs were tested as new functionality was added. 
 
-\subsection{Point 1}
-This subsection gives a great deal of precise description supporting point 1.  For example,
-
-\subsection{Point 2}
+\subsection{Input Validation}
+Through a variety of means the programs ensure the input entered by users is valid. By preventing invalid input, the programs ensure the data received and presented is correct and avoids issues of unreliable data causing issues downstream. ASP.NET Core MVC provides Tag Helpers which ensures client-side validation takes place. These Tag Helpers use the Data Annotations on the models to determine valid input. A helpful error message is returned to the Razor Page views which describes to the user the invalid input. On the server-side, the Data Annotations on the model are also checked again. This prevents the user from by-passing the client-side and forcefully entered invalid data. When the Data Annotations are not sufficient, the developer manually checked input to ensure valid data. The developer grouped the validation into separate static classes to promote reuseability and modularization. \\
+\\
+One common type of attack on web platforms is Cross Side Scripting (XSS). XSS is inserting malicious code into the web page. Once this malicious code runs, the attacker can do anything within the web page to comprise the interactions the victim's has with the page. ASP.NET Core MVC automatically sanitizes input which is the process of disallowing, escaping, or preventing potential code from being executed. Any code entered via inputs is sanitized and cannot execute. Instead the worst case scenario is malicious code is rendered as HTML text on the page.\\
+\\
+Another common type of attack is SQL Injection. SQL Injection is inserting malicious SQL statements that will run against the database to either gain information or destroy data. Dynamically generated SQL has more avenues for injection of malicious SQL statements. As Entity Framework Core is how the database connection is created and SQL statements are executed, the only potential vectors for SQL Injection are the values asked for. The risk for SQL Injection is greatly mitigated, as these malicious values are prevented client-side, server-side, and, if not prevented by these other measures, sanitized. 
+\subsection{Unit Testing}
 This gives Point 2
 
-\subsection{Point 3}
+\subsection{Acceptance Testing}
 This gives Point 3
+
+\subsection{Integration Testing}
