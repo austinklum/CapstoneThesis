@@ -23,6 +23,7 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           root_file: capstone.tex
-      - name: Gather build artifacts
-        run: |
-          mv capstone.pdf Output/
+      - uses: actions/upload-artifact@v2
+        with:
+          name: capstone
+          path: capstone.pdf
