@@ -13,7 +13,7 @@ Traditional methodology follows the waterfall approach which \qquote{contains fi
 
 
 \subsection{Course Creator}
-This tool allows the project sponsor and verified users to create orienteering courses for the students to complete. Each course is comprised of locations which has a corresponding photo to accompany the location. To help with immersion and to best utilize the capabilities of virtual reality, the uploaded photos must be 360 Photos, also known as a photo sphere. This type of photo allows for the virtual reality tool to wrap the image around the user making a sphere, such that the user is able to look around as if they were really at that location. The tool also allows for locations to be added, updated, or deleted. Each location has a list of questions. There is no limit to the number of questions per location. The tool allows for each question to be added, updated, or deleted. Each question has a list of answers which can be of one to six possibilities. The tool allows for each answer to be added, updated, or deleted. \\
+This tool allows the project sponsor and verified users to create orienteering courses for the students to complete. Upon logging in, the verified user views the list of courses available. Each course is comprised of locations which has a corresponding photo to accompany the location. To help with immersion and to best utilize the capabilities of virtual reality, the uploaded photos must be 360 Photos, also known as a photo sphere. This type of photo allows for the virtual reality tool to wrap the image around the user making a sphere, such that the user is able to look around as if they were really at that location. The tool also allows for locations to be added, updated, or deleted. Each location has a list of questions. There is no limit to the number of questions per location. The tool allows for each question to be added, updated, or deleted. Each question has a list of answers which can be of one to six possibilities. The tool allows for each answer to be added, updated, or deleted. \\
 \\
 Once a course has been completed by a student, a verified user can view the results from the course main dashboard. This dashboard lists the student ID, point score, time score, and total score. As security is important, the database is encrypted and requires an authorized administrator database account to access the data outside of the tool. \\
 \\
@@ -33,7 +33,7 @@ Figure \ref{Course Creator Use Case Diagram} explains the use case diagram.
 This section will include photos and written steps on how to use the course creator. 
 
 \subsection{Virtual Reality Orienteering}
-This tool is used by the students to complete the created orienteering courses that the project sponsor or verified user(s) created. Upon starting the program the user is prompted to enter their student ID using a "mallet" and tap virtual keyboard. Once the student has entered their student ID, they then select the course via a select list with a point and trigger arrow pointers buttons. After hitting the start button the student begins the course. The first location is loaded up and the student can look around the location. Upon touching the touch pad the first question and corresponding possible answers appears in the world view. As part of the orienteering spirit each question must be answered correctly to continue on to the next question. When a student answers incorrectly the button turns red and is disabled. When answered correctly the button flashes green and the next question and corresponding possible answers load. The student is graded on how quickly they came to the correct answer and, with the orienteering aspect in mind, the time to completely answer all the questions in a location. Each question is worth one point and each location time is worth one point. The score point is awarded divided by the number of attempts. This means that a question with four possible answers the following outcomes are possible: answered correctly has one point awarded, one incorrect attempt has .75 points awarded, two incorrect attempts has .5 points awarded, and three incorrect attempts has .25 points awarded. For the time aspect of the grade, the student has 100 seconds to complete the location, where each second is worth .01 points. This means if the student took 30 seconds to answer the questions and complete the location, they are awarded with .70 points. A time of 45 seconds is awarded .65 points. \\
+This tool is used by the students to complete the created orienteering courses that the project sponsor or verified user(s) created. Upon starting the program the user is prompted to enter their student ID using a ``mallet" and tap virtual keyboard. Once the student has entered their student ID, they then select the course via a select list with a point and trigger arrow pointers buttons. After hitting the start button the student begins the course. The first location is loaded up and the student can look around the location. Upon touching the touch pad the first question and corresponding possible answers appears in the world view. As part of the orienteering spirit each question must be answered correctly to continue on to the next question. When a student answers incorrectly the button turns red and is disabled. When answered correctly the button flashes green and the next question and corresponding possible answers load. The student is graded on how quickly they came to the correct answer and, with the orienteering aspect in mind, the time to completely answer all the questions in a location. Each question is worth one point and each location time is worth one point. The score point is awarded divided by the number of attempts. This means that a question with four possible answers the following outcomes are possible: answered correctly has one point awarded, one incorrect attempt has .75 points awarded, two incorrect attempts has .5 points awarded, and three incorrect attempts has .25 points awarded. For the time aspect of the grade, the student has 100 seconds to complete the location, where each second is worth .01 points. This means if the student took 30 seconds to answer the questions and complete the location, they are awarded with .70 points. A time of 45 seconds is awarded .65 points. \\
 \\
 Upon answering all the questions for a location, the next location is loaded and the timer is reset. Once all locations have been completed a game over screen appears stating the student's point score, time score, total score, and what the maximum points awarded could be. 
 \subsubsection{Users}
@@ -49,16 +49,42 @@ Figure \ref{Virutal Reality Orienteering Use Case Diagram} explains the use case
 This section will include photos and written steps on the experience of the student completing a course.
 
 \subsection{Functional Requirements}
+Functional requirements describe what the system does. These are hard functionalities that the system must provide in order to be considered complete. The following are the high-level functional requirements for this project described from the viewpoint of the users:
+\begin{itemize}
+	\item As a user, I would like to\ldots
+	\begin{itemize}
+		\item register an account
+		\item login and logout of my account
+		\item edit my account information
+	\end{itemize}
+	\item As a verified user, I would like to\ldots
+	\begin{itemize}
+		\item view, create, update, and delete courses
+		\item view, create, update, and delete locations
+		\item view, create, update, and delete questions
+		\item view, create, update, and delete answers
+		\item view the list of courses
+		\item view course results
+		\item verify other users
+	\end{itemize}
+	\item As a student, I would like to\ldots
+	\begin{itemize}
+		\item enter my student ID  within a VR experience
+		\item select a course within a VR experience
+		\item complete a orienteering course within a VR experience
+	\end{itemize}
+\end{itemize}
 
 \subsection{Non-functional Requirements}
 Non-functional requirements describe how a system preforms its required functions. These describe the qualities that the system should aim for. The following are the high-level non-functional requirements for this project:
 \begin{itemize}
 	\item The project should be open-sourced
+	\item The project should be cross-platform supported
 	\item The project should securely store student result information
 	\item The project should securely transmit student results between the two programs
-	\item The Course Creator program should be easy and intuitive to use
+	\item The project should be light-weight and portable
 	\item The Virtual Reality Orienteering program should promote immersion and cultural understanding
-	\item The programs should be light-weight and portable
+	\item The Course Creator program should be easy and intuitive to use
 	\item The Course Creator should require proper authorization and authentication policies
 	\item The Course Creator should validate user input and display the errors in a user friendly message
 \end{itemize}
