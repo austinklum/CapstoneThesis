@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  9 JUL 2022 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  9 JUL 2022 14:31
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -741,7 +741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 [2
 
 ]
-<Requirements/assets/course-creator-use-case-diagram.png, id=404, 389.8063pt x 
+<Requirements/assets/course-creator-use-case-diagram.png, id=406, 389.8063pt x 
 741.2192pt>
 File: Requirements/assets/course-creator-use-case-diagram.png Graphic file (typ
 e png)
@@ -754,7 +754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
-<Requirements/assets/vr-use-case-diagram.png, id=414, 523.50581pt x 437.68518pt
+<Requirements/assets/vr-use-case-diagram.png, id=416, 523.50581pt x 437.68518pt
 >
 File: Requirements/assets/vr-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/vr-use-case-diagram.png>
@@ -796,7 +796,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
  []
 
 [9]
-<Requirements/assets/course-creator-class-diagram.png, id=454, 972.48318pt x 62
+<Requirements/assets/course-creator-class-diagram.png, id=456, 972.48318pt x 62
 9.20068pt>
 File: Requirements/assets/course-creator-class-diagram.png Graphic file (type p
 ng)
@@ -804,8 +804,15 @@ ng)
 Package pdftex.def Info: Requirements/assets/course-creator-class-diagram.png  
 used on input line 52.
 (pdftex.def)             Requested size: 422.77664pt x 273.53687pt.
+<Design/assets/capstone-er-diagram.png, id=457, 392.96812pt x 483.30562pt>
+File: Design/assets/capstone-er-diagram.png Graphic file (type png)
+<use Design/assets/capstone-er-diagram.png>
+Package pdftex.def Info: Design/assets/capstone-er-diagram.png  used on input l
+ine 64.
+(pdftex.def)             Requested size: 281.85587pt x 346.67447pt.
  [10] [11 <./Requirements/assets/course-creator-class-diagram.png>])
-[12] (Implementation/Implementation.tex
+[12 <./Design/assets/capstone-er-diagram.png>]
+(Implementation/Implementation.tex
 Overfull \hbox (6.0pt too wide) in paragraph at lines 12--12
 [][][][][][][] 
  []
@@ -859,7 +866,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 185--185
 [][][][][][][] 
  []
 
-<Implementation/assets/web-api-endpoints.png, id=645, 735.34724pt x 456.5055pt>
+<Implementation/assets/web-api-endpoints.png, id=649, 735.34724pt x 456.5055pt>
 
 File: Implementation/assets/web-api-endpoints.png Graphic file (type png)
 <use Implementation/assets/web-api-endpoints.png>
@@ -867,7 +874,7 @@ Package pdftex.def Info: Implementation/assets/web-api-endpoints.png  used on i
 nput line 213.
 (pdftex.def)             Requested size: 422.77664pt x 262.46075pt.
 [18]
-<Implementation/assets/web-api-schema.png, id=684, 732.93825pt x 690.1785pt>
+<Implementation/assets/web-api-schema.png, id=688, 732.93825pt x 690.1785pt>
 File: Implementation/assets/web-api-schema.png Graphic file (type png)
 <use Implementation/assets/web-api-schema.png>
 Package pdftex.def Info: Implementation/assets/web-api-schema.png  used on inpu
@@ -951,10 +958,10 @@ Package rerunfilecheck Info: File `capstone.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
  ) 
 Here is how much of TeX's memory you used:
- 11537 strings out of 492484
- 173049 string characters out of 3131958
- 530429 words of memory out of 3000000
- 15207 multiletter control sequences out of 15000+200000
+ 11546 strings out of 492484
+ 173319 string characters out of 3131958
+ 530528 words of memory out of 3000000
+ 15213 multiletter control sequences out of 15000+200000
  10537 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,10n,71p,3016b,2216s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -965,9 +972,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
 ublic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on capstone.pdf (42 pages, 680682 bytes).
+Output written on capstone.pdf (42 pages, 707856 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 429 named destinations out of 1000 (max. 500000)
- 466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 999 PDF objects out of 1000 (max. 8388607)
+ 430 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
 
