@@ -45,13 +45,33 @@ Unity XR Interaction Toolkit is a cross-platform plugin used for virtual, mixed,
 
 \subsubsection{Course Creator}
 
+Figure \ref{Course Creator UML Class Diagram} shows the class diagram.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=.9\textwidth]{Design/assets/course-creator-class-diagram.png}
+	\caption[Course Creator UML Class Diagram]{\label{Course Creator UML Class Diagram}Course Creator UML Class Diagram}
+\end{figure}
+
 \subsubsection{Virtual Reality Orienteering}
+
+Figure \ref{Virtual Reality Orienteering UML Class Diagram} shows the class diagram.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=.9\textwidth]{Design/assets/vr-class-diagram.png}
+	\caption[Virutal Reality Orienteering UML Class Diagram]{\label{Virtual Reality Orienteering UML Class Diagram}Virtual Reality Orienteering UML Class Diagram}
+\end{figure}
 
 \subsection{Database}
 The database uses Microsoft's SQL Server. SQL Server is the de facto used for .NET projects.  SQL Server is a relation database management system which manages and stores information. The standard tool for working with SQL Server is SQL Server Management Studio which makes database changes and transactions easy. Transparent Data Encryption (TDE) encrypts data files at rest. This means that any data files stored are encrypted preventing any malicious attempts to read the database.
 
 \subsubsection{Database Schema}
-
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=.6\textwidth]{Design/assets/capstone-er-diagram.png}
+	\caption[ER Diagram]{\label{ER Diagram}ER Diagram}
+\end{figure}
 \subsection{Communication between Programs}
 This project comprises of two separate programs which must communicate with each other, and do so securely. The Course Creator has a RESTful Web API which requires Basic Authentication to make calls to.  Basic Authentication requires a username and password over an HTTP connection. Using just an HTTP connection is not secure though, as the username and password are sent over in plaintext. This means any malicious user can sniff the network and easily obtain the credentials. To counter this the project requires a secure connection using HTTPS, with the `S' meaning secure. An HTTPS connection encrypts any data sent over it; thereby securing the Basic Authentication credentials. The RESTful Web API provides predefined endpoints for authorized users to use with REST calls. REST stands for REpresentational State Transfer and is a architectural standard for communication on the web. REST is stateless, meaning that the server does not need to know about what state the client is or vice versa. This allows for communication without needing to know the previous messages. A REST request usually is comprised of an HTTP verb, header, URI path, and an optional body containing data. The four basic HTTP verbs are GET, POST, PUT, and DELETE. GET retrieves data or a specific resource. POST creates new data or a new resource. PUT updates data or a specific resource. Finally, DELETE removes data or a specific resource. The header is used for carrying pertinent information about the request being made. This includes the authorization, cookies, caching, and other logistical information for fulfilling the request. The REST requests consume or return data in JSON which is a standard data-interchange format. JSON is easy for humans to read and simple for computers to parse and generate.
 
