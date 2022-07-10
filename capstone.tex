@@ -33,7 +33,6 @@
 \setcounter{tocdepth}{3}
 \renewcommand\contentsname{}				% TOC title
 \renewcommand\listfigurename{}				% LOF title
-\renewcommand\listtablename{}				% LOT title
 
 \setlength\cftaftertoctitleskip{-0.5in}
 \setlength\cftafterloftitleskip{-0.5in}
@@ -356,13 +355,6 @@ I would like to express my thanks to the Department of Computer Science at the U
 \tableofcontents
 \clearpage
 
-
-%% LIST OF TABLES
-\section*{List of Tables}
-\addcontentsline{toc}{section}{List of Tables}
-\listoftables
-\clearpage
-
 %% LIST OF FIGURES
 \section*{List of Figures}
 \addcontentsline{toc}{section}{List of Figures}
@@ -390,18 +382,6 @@ I would like to express my thanks to the Department of Computer Science at the U
 \IfFileExists{Implementation/Implementation}{\input{Implementation/Implementation}}{}\clearpage
 \IfFileExists{Testing/Testing}{\input{Testing/Testing}}{}\clearpage
 \IfFileExists{Conclusion/Conclusion}{\input{Conclusion/Conclusion}}{}\clearpage
-
-An article \cite{anarticle}\\
-A book \cite{abook}\\
-A series \cite{bookseries}\\
-Someone's thesis \cite{thesis}\\
-Some technical report \cite{report}\\
-A collection \cite{collection}\\
-Visited website \cite{website}\\
-Accepted for publication \cite{acceptedpub}\\
-Submitted for publication \cite{unpub}\\
-Not published \cite{notpub}\\
-Conversation \cite{conv}
 
 %% BIBLIOGRAPHY
 %\label{sec:bibliography}
