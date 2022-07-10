@@ -66,48 +66,4 @@ L.~Hoory, ``What is waterfall methodology? here's how it can help your project
 B.~C. Martin, \emph{Clean Code: A Handbook of Agile Software Craftsmanship},
   1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Prentice Hall, 2008.
 
-\bibitem{anarticle}
-A.~B. Cummings, D.~Eftekhary, and F.~G. House, ``The accurate determination of
-  college students’ coefficients of friction,'' \emph{Journal of Sketchy
-  Physics}, vol.~13, no.~2, pp. 46--129, 2003.
-
-\bibitem{abook}
-I.~J. Kuss, \emph{On the Importance of Kissing Up to Your Boss}, 5th~ed.\hskip
-  1em plus 0.5em minus 0.4em\relax Cambridge MA: Dilbert Books, 1995.
-
-\bibitem{bookseries}
-L.~M. Napster, \emph{Mathematical Theory of Efficient Piracy}, ser. Lecture
-  Notes in Mathematics.\hskip 1em plus 0.5em minus 0.4em\relax New York NY:
-  Springer Verlag, 1998, vol. 3204.
-
-\bibitem{thesis}
-O.~P. Qwerty, ``History of the goofy layout of keyboards,'' Ph.D. dissertation,
-  Podunk IN, 1996.
-
-\bibitem{report}
-R.~Swearingen, ``Morpholoty and syntax of british sailors’ english,'' New
-  York NY, Tech. Rep., 1985.
-
-\bibitem{collection}
-T.~Upsilon, ``Obscure greek letters and their meanings in mathematics and the
-  sciences,'' in \emph{Proceedings of the seventh international trivia
-  conference}, V.~W. Xavier, Ed.\hskip 1em plus 0.5em minus 0.4em\relax
-  Philadelphia PA: Last Resort Publishers, 1987, pp. 129--158.
-
-\bibitem{website}
-J.~Tetazoo, ``A brief guide to recreational pyromania,'' Available at
-  \url{http:// www.blowinglotsofweirdstuffup.com/guide.html} (2005/06/12).
-
-\bibitem{acceptedpub}
-J.~Mentor, ``Behavior of small animals on fire,'' (in press).
-
-\bibitem{unpub}
-------, ``Behavior of small animals on fire,'' 2012, unpublished Manuscript.
-
-\bibitem{notpub}
-------, ``Behavior of small animals on fire,'' 2012, unpublished Manuscript.
-
-\bibitem{conv}
-S.~Freud, Personal conversation, July 2012.
-
 \end{thebibliography}
