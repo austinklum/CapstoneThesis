@@ -15,7 +15,7 @@ Unit Testing is writing code to test your code. Unit Testing are automated tests
 \begin{lstlisting}[caption=Example Unit Test,label=lst:UnitTest]
 public class WebApiTests
 {
-	private readonly ImmersiveQuizAPI _webApi;
+	private readonly ImmersiveQuizApi _webApi;
 	private readonly Mock<CourseContext> _mockCourseContext;
 	private readonly Mock<LocationContext> _mockLocationContext;
 	private readonly Mock<QuestionContext> _mockQuestionContext;
@@ -32,7 +32,7 @@ public class WebApiTests
 		_mockAnswerContext = new Mock<AnswerContext>(_mockOptions.Object);
 		_mockScoreContext = new Mock<ScoreContext>(_mockOptions.Object);
 		
-		_webApi = new ImmersiveQuizAPI(_mockCourseContext.Object, _mockLocationContext.Object, _mockQuestionContext.Object, _mockAnswerContext.Object, _mockScoreContext.Object);
+		_webApi = new ImmersiveQuizApi(_mockCourseContext.Object, _mockLocationContext.Object, _mockQuestionContext.Object, _mockAnswerContext.Object, _mockScoreContext.Object);
 	}
 	
 	[Fact]
