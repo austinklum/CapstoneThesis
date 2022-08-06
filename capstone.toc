@@ -21,12 +21,12 @@
 \contentsline {subsection}{\numberline {3.2.}Technologies}{20}{subsection.0.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1.}Course Creator}{20}{subsubsection.0.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2.}Virtual Reality Orienteering}{21}{subsubsection.0.3.2.2}%
-\contentsline {subsection}{\numberline {3.3.}Class Diagrams}{22}{subsection.0.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.}Course Creator}{22}{subsubsection.0.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.}Virtual Reality Orienteering}{22}{subsubsection.0.3.3.2}%
-\contentsline {subsection}{\numberline {3.4.}Database}{22}{subsection.0.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1.}Database Schema}{23}{subsubsection.0.3.4.1}%
-\contentsline {subsection}{\numberline {3.5.}Communication between Programs}{23}{subsection.0.3.5}%
+\contentsline {subsection}{\numberline {3.3.}Class Diagrams}{23}{subsection.0.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.}Course Creator}{23}{subsubsection.0.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.}Virtual Reality Orienteering}{23}{subsubsection.0.3.3.2}%
+\contentsline {subsection}{\numberline {3.4.}Database}{23}{subsection.0.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.}Database Schema}{24}{subsubsection.0.3.4.1}%
+\contentsline {subsection}{\numberline {3.5.}Communication between Programs}{24}{subsection.0.3.5}%
 \contentsline {section}{\numberline {4.}Implementation}{26}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1.}Overview}{26}{subsection.0.4.1}%
 \contentsline {subsection}{\numberline {4.2.}Course Creator}{26}{subsection.0.4.2}%
