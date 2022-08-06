@@ -57,7 +57,7 @@ However, a non-verified user can still access their account details and make cha
 	\caption[Course Creator - Manage Account]{\label{CC Manage Account}Course Creator - Manage Account}
 \end{figure}
 \\
-When a verified user accesses the verify users page the user is presented with the list of users who are not verified and verified. From here a verified user can verify non-verified users. Figure \ref{CC Verify} shows the verify user page. \\
+When a verified user accesses the ``verify users" page a list is presented of users with their verification status. From here a verified user can verify non-verified users. Figure \ref{CC Verify} shows the verify user page. \\
 \\
 \begin{figure}[htb]
 	\centering
@@ -128,9 +128,14 @@ Once a course is completed by a student the results are viewable in the Course S
 \\
 Once a user is finished using the Course Creator program, they are able to logout by clicking the ``Logout" button on the top toolbar. This destroys the user's session and will require the user to log back in to use the Course Creator again. \\
 \subsection{Virtual Reality Orienteering}
-This tool is used by the students to complete the created orienteering courses that the project sponsor or verified user(s) created. Upon starting the program the user is prompted to enter their student ID using a ``mallet" and tap virtual keyboard. Once the student has entered their student ID, they then select the course via a select list with a point and trigger arrow pointers buttons. After hitting the start button the student begins the course. The first location is loaded up and the student can look around the location. Upon touching the touch pad the first question and corresponding possible answers appears in the world view. As part of the orienteering spirit each question must be answered correctly to continue on to the next question. When a student answers incorrectly the button turns red and is disabled. When answered correctly the button flashes green and the next question and corresponding possible answers load. The student is graded on how quickly they came to the correct answer and, with the orienteering aspect in mind, the time to completely answer all the questions in a location. Each question is worth one point and each location time is worth one point. The score point is awarded divided by the number of attempts. This means that a question with four possible answers the following outcomes are possible: answered correctly has one point awarded, one incorrect attempt has .75 points awarded, two incorrect attempts has .5 points awarded, and three incorrect attempts has .25 points awarded. For the time aspect of the grade, the student has 100 seconds to complete the location, where each second is worth .01 points. This means if the student took 30 seconds to answer the questions and complete the location, they are awarded with .70 points. A time of 45 seconds is awarded .65 points. \\
+This tool is used by the students to complete the created orienteering courses that the project sponsor or verified user(s) created. Upon starting the program the user is prompted to enter their student ID using a ``mallet" and tap virtual keyboard. Once the student has entered their student ID, they then select the course via a select list with a point and trigger arrow pointer buttons. \\
+\\
+After hitting the start button the student begins the course. The first location is loaded up and the student can look around the location. Upon touching the touch pad the first question and corresponding possible answers appears in the world view. As part of the orienteering spirit each question must be answered correctly to continue on to the next question. When a student answers incorrectly the button turns red and is disabled. When answered correctly the button flashes green and the next question and corresponding possible answers load. \\
+\\
+The student is graded on how quickly they came to the correct answer and, with the orienteering aspect in mind, the time to completely answer all the questions in a location. Each question is worth one point and each location time is worth one point. The point for each question is divided by the number of attempts to answer the question. This means that a question with four possible answers the following outcomes are possible: answered correctly has one point awarded, one incorrect attempt has .75 points awarded, two incorrect attempts has .5 points awarded, and three incorrect attempts has .25 points awarded. For the time aspect of the grade, the student has 100 seconds to complete the location, where each second is worth .01 points. This means if the student took 30 seconds to answer the questions and complete the location, they are awarded with .70 points. A time of 45 seconds is awarded .65 points. Any time greater than 100 seconds will award 0 points.\\
 \\
 Upon answering all the questions for a location, the next location is loaded and the timer is reset. Once all locations have been completed a game over screen appears stating the student's point score, time score, total score, and what the maximum points awarded could be. 
+\clearpage
 \subsubsection{Users}
 Figure \ref{Virutal Reality Orienteering Use Case Diagram} shows the use case diagram for the Virtual Reality Orienteering program.
 
@@ -138,30 +143,32 @@ Figure \ref{Virutal Reality Orienteering Use Case Diagram} shows the use case di
 	\centering
 	\includegraphics[width=.9\textwidth]{Requirements/assets/vr-use-case-diagram.png}
 	\caption[Virutal Reality Orienteering Use Case Diagram]{\label{Virutal Reality Orienteering Use Case Diagram}Virtual Reality Orienteering Use Case Diagram}
-\end{figure} \clearpage
-
+\end{figure}
+\clearpage
 \subsubsection{Virtual Reality Orienteering Flow}
-To complete a course a student must start the Virtual Reality Orienteering program and put on a Virtual Reality headset. The student is then prompted to enter in their student ID using a virtual keyboard and a ``Mallet" input system. Figure \ref{VR Keyboard} shows the virtual keyboard and ``Mallet" input system.
+To complete a course a student must start the Virtual Reality Orienteering program and put on a Virtual Reality headset. Figure \ref{VR Keyboard} shows the student entering their student ID with the virtual keyboard and ``Mallet" input system.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=.6\textwidth]{Requirements/assets/vr-keyboard.png}
 	\caption[Virtual Reality Orienteering - Student ID Keyboard]{\label{VR Keyboard}Virtual Reality Orienteering - Student ID Keyboard}
-\end{figure} \clearpage
-Once a student has entered their student Id, the Course Selector screen appears. The Course Selector screen is a list of all possible courses served up by a call to the Web API. The student is able to use a point and trigger input system to move up or down the list with the corresponding buttons. Once a desired course is picked the student clicks the ``Start" button to begin the course.\\
+\end{figure} 
+\\
+Once a student has entered their student ID, the Course Selector screen appears. The Course Selector screen is a list of all possible courses served up by a call to the Web API. The student is able to use a point and trigger input system to move up or down the list with the corresponding buttons. Once a desired course is picked the student clicks the ``Start" button to begin the course.\\
 \\
 Upon starting a course the 360 photo of the first location is loaded. The timer for the each location starts upon loading a new location. The student is able to look around the worldspace to promote an immersive experience. Figure \ref{VR Worldspace} shows the student looking around the location in the worldspace. 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=.6\textwidth]{Requirements/assets/vr-worldspace.png}
+	\includegraphics[width=.5\textwidth]{Requirements/assets/vr-worldspace.png}
 	\caption[Virtual Reality Orienteering - Veiwing Worldspace]{\label{VR Worldspace}Virtual Reality Orienteering - Viewing Worldspace}
 \end{figure} \clearpage
-Once the student has looked around and is satisfied that they know the location, they are able to press the touchpad and load up the questions screen. The question screen is populated by a call to the Web API. A student is able to answer the questions by using the point and trigger input system and the corresponding answer buttons. Figure \ref{VR Question} shows the student looking at the questions screen and hovering over a answer button. 
+Once the student has looked around and is satisfied that they know the location, they are able to press the touchpad and load up the questions screen. The question screen is populated by a call to the Web API. A student is able to answer the questions by using the point and trigger input system and the corresponding answer buttons. Figure \ref{VR Question} shows the student looking at the questions screen and hovering over an answer button. 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=.6\textwidth]{Requirements/assets/vr-view-questions.png}
 	\caption[Virtual Reality Orienteering - Questions Screen]{\label{VR Question}Virtual Reality Orienteering - Questions Screen}
-\end{figure} \clearpage
-When a student answers incorrectly, their point score is subtracted and the answer button turns red to indicate an incorrect answer. Upon answering correctly the answer button flashes green and the next question is loaded. Figure \ref{VR Incorrect Answer} shows a student who answered a question incorrectly twice with two red answer buttons indicating an incorrect answer.
+\end{figure}
+\\
+When a student answers incorrectly, their point score is subtracted and the answer button turns red to indicate an incorrect answer. Upon answering correctly the answer button flashes green and the next question is loaded. Figure \ref{VR Incorrect Answers} shows a student who answered a question incorrectly twice with two red answer buttons indicating an incorrect answer.
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=.6\textwidth]{Requirements/assets/vr-answer-incorrectly.png}
@@ -172,7 +179,8 @@ The student continues answering the questions until all are answered correctly. 
 	\centering
 	\includegraphics[width=.6\textwidth]{Requirements/assets/vr-game-over.png}
 	\caption[Virtual Reality Orienteering - Game Over]{\label{VR Game Over}Virtual Reality Orienteering - Game Over}
-\end{figure} \clearpage 
+\end{figure} 
+\\
 The student is able to exit the Virtual Reality Orienteering program by using the point and trigger input system to click the ``Quit" button.
 \subsection{Functional Requirements}
 Functional requirements describe what the system does. These are hard functionalities that the system must provide in order to be considered complete. The following are the high-level functional requirements for this project described from the viewpoint of the users:
