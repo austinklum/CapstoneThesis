@@ -17,20 +17,61 @@ Traditional methodology follows the waterfall approach which \qquote{contains fi
 	\caption[KanBan Board Snippet]{\label{KanBan}KanBan Board Snippet}
 \end{figure} \clearpage
 
+\subsection{Functional Requirements}
+Functional requirements describe what the system does. These are hard functionalities that the system must provide in order to be considered complete. The following are the high-level functional requirements for this project described from the viewpoint of the users:
+\begin{itemize}
+	\item As a user, I would like to\ldots
+	\begin{itemize}
+		\item register an account
+		\item login and logout of my account
+		\item edit my account information
+	\end{itemize}
+	\item As a verified user, I would like to\ldots
+	\begin{itemize}
+		\item view, create, update, and delete courses
+		\item view, create, update, and delete locations
+		\item view, create, update, and delete questions
+		\item view, create, update, and delete answers
+		\item view the list of courses
+		\item view course results
+		\item verify other users
+	\end{itemize}
+	\item As a student, I would like to\ldots
+	\begin{itemize}
+		\item enter my student ID  within a VR experience
+		\item select a course within a VR experience
+		\item complete a orienteering course within a VR experience
+	\end{itemize}
+\end{itemize}
+
+\subsection{Non-functional Requirements}
+Non-functional requirements describe how a system preforms its required functions. These describe the qualities that the system should aim for. The following are the high-level non-functional requirements for this project:
+\begin{itemize}
+	\item The project should be open-sourced
+	\item The project should be cross-platform supported
+	\item The project should securely store student result information
+	\item The project should securely transmit student results between the two programs
+	\item The project should be light-weight and portable
+	\item The Virtual Reality Orienteering program should promote immersion and cultural understanding
+	\item The Course Creator program should be easy and intuitive to use
+	\item The Course Creator should require proper authorization and authentication policies
+	\item The Course Creator should validate user input and display the errors in a user friendly message
+\end{itemize}
+
 \subsection{Course Creator}
-This tool allows the project sponsor and verified users to create orienteering courses for the students to complete. Upon logging in, the verified user views the list of courses available. Each course is comprised of locations which has a corresponding photo to accompany the location. To help with immersion and to best utilize the capabilities of virtual reality, the uploaded photos must be 360 Photos, also known as a photo sphere. This type of photo allows for the virtual reality tool to wrap the image around the user making a sphere, such that the user is able to look around as if they were really at that location. The decision to use 360 Photos was made as the 3D models for the locations aren't available and would limit the locations possible for the courses. This decision enables the verified users to create any course desired as 360 Photos are easy to capture and create. The tool also allows for locations to be added, updated, or deleted. Each location has a list of questions. There is no limit to the number of questions per location. The tool allows for each question to be added, updated, or deleted. Each question has a list of answers which can be of one to six possibilities. The tool allows for each answer to be added, updated, or deleted. \\
+This tool allows the project sponsor and verified users to create orienteering courses for the students to complete. Upon logging in, the verified user views the list of courses available. Each course is comprised of locations which has a corresponding photo to accompany the location. To help with immersion and to best utilize the capabilities of virtual reality, the uploaded photos must be 360 Photos, also known as a photo sphere. This type of photo allows for the virtual reality tool to wrap the image around the user making a sphere, such that the user is able to look around as if they were really at that location. The decision to use 360 Photos was made as the 3D models for the locations aren't available and would limit the locations possible for the courses. This decision enables the verified users to create any course desired as 360 Photos are easy to capture and create. \\
+\\
+ The tool also allows for locations to be added, updated, or deleted. Each location has a list of questions. There is no limit to the number of questions per location. The tool allows for each question to be added, updated, or deleted. Each question has a list of answers which can be of one to six possibilities. The tool allows for each answer to be added, updated, or deleted. \\
 \\
 Once a course has been completed by a student, a verified user can view the results from the course main dashboard. This dashboard lists the student ID, point score, time score, and total score. As security is important, the database is encrypted and requires an authorized administrator database account to access the data outside of the tool. \\
 \\
 For a user to be created, they must create an account with an email and password. Once the account is created, the user is immediately able to login, but will be unable to access any of the course creation or course results pages, limited only to the homepage and user settings. Each verified user has the capability to approve other users. In the user settings page, there exists a link to verify users. The verify users page list all users and their status of verified or not verified. From here a verified user can verify or un-verify other users by selecting the corresponding checkbox and saving. 
-
-
+\clearpage
 \subsubsection{Users}
-Figure \ref{Course Creator Use Case Diagram} explains the use case diagram. The use cases shows the actions a new user and an verified user can take. A new user is limited to registering, logging in, and update their account. A verified user is able to create, update, and delete courses and subcomponents. \\
-
+Figure \ref{Course Creator Use Case Diagram} explains the use case diagram. The use cases shows the actions a new user and an verified user can take. A new user is limited to registering, logging in, and update their account. A verified user is able to create, update, and delete courses and subcomponents.
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=.6\textwidth]{Requirements/assets/course-creator-use-case-diagram.png}
+	\includegraphics[width=.5\textwidth]{Requirements/assets/course-creator-use-case-diagram.png}
 	\caption[Course Creator Use Case Diagram]{\label{Course Creator Use Case Diagram}Course Creator Use Case Diagram}
 \end{figure}
 \clearpage
@@ -182,43 +223,3 @@ The student continues answering the questions until all are answered correctly. 
 \end{figure} 
 \\
 The student is able to exit the Virtual Reality Orienteering program by using the point and trigger input system to click the ``Quit" button.
-\subsection{Functional Requirements}
-Functional requirements describe what the system does. These are hard functionalities that the system must provide in order to be considered complete. The following are the high-level functional requirements for this project described from the viewpoint of the users:
-\begin{itemize}
-	\item As a user, I would like to\ldots
-	\begin{itemize}
-		\item register an account
-		\item login and logout of my account
-		\item edit my account information
-	\end{itemize}
-	\item As a verified user, I would like to\ldots
-	\begin{itemize}
-		\item view, create, update, and delete courses
-		\item view, create, update, and delete locations
-		\item view, create, update, and delete questions
-		\item view, create, update, and delete answers
-		\item view the list of courses
-		\item view course results
-		\item verify other users
-	\end{itemize}
-	\item As a student, I would like to\ldots
-	\begin{itemize}
-		\item enter my student ID  within a VR experience
-		\item select a course within a VR experience
-		\item complete a orienteering course within a VR experience
-	\end{itemize}
-\end{itemize}
-
-\subsection{Non-functional Requirements}
-Non-functional requirements describe how a system preforms its required functions. These describe the qualities that the system should aim for. The following are the high-level non-functional requirements for this project:
-\begin{itemize}
-	\item The project should be open-sourced
-	\item The project should be cross-platform supported
-	\item The project should securely store student result information
-	\item The project should securely transmit student results between the two programs
-	\item The project should be light-weight and portable
-	\item The Virtual Reality Orienteering program should promote immersion and cultural understanding
-	\item The Course Creator program should be easy and intuitive to use
-	\item The Course Creator should require proper authorization and authentication policies
-	\item The Course Creator should validate user input and display the errors in a user friendly message
-\end{itemize}

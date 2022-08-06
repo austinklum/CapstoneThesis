@@ -8,14 +8,14 @@
 \BOOKMARK [1][-]{section.0.2}{Requirements}{}% 8
 \BOOKMARK [2][-]{subsection.0.2.1}{Overview}{section.0.2}% 9
 \BOOKMARK [2][-]{subsection.0.2.2}{Development Methodology}{section.0.2}% 10
-\BOOKMARK [2][-]{subsection.0.2.3}{Course Creator}{section.0.2}% 11
-\BOOKMARK [3][-]{subsubsection.0.2.3.1}{Users}{subsection.0.2.3}% 12
-\BOOKMARK [3][-]{subsubsection.0.2.3.2}{Create Course Flow}{subsection.0.2.3}% 13
-\BOOKMARK [2][-]{subsection.0.2.4}{Virtual Reality Orienteering}{section.0.2}% 14
-\BOOKMARK [3][-]{subsubsection.0.2.4.1}{Users}{subsection.0.2.4}% 15
-\BOOKMARK [3][-]{subsubsection.0.2.4.2}{Virtual Reality Orienteering Flow}{subsection.0.2.4}% 16
-\BOOKMARK [2][-]{subsection.0.2.5}{Functional Requirements}{section.0.2}% 17
-\BOOKMARK [2][-]{subsection.0.2.6}{Non-functional Requirements}{section.0.2}% 18
+\BOOKMARK [2][-]{subsection.0.2.3}{Functional Requirements}{section.0.2}% 11
+\BOOKMARK [2][-]{subsection.0.2.4}{Non-functional Requirements}{section.0.2}% 12
+\BOOKMARK [2][-]{subsection.0.2.5}{Course Creator}{section.0.2}% 13
+\BOOKMARK [3][-]{subsubsection.0.2.5.1}{Users}{subsection.0.2.5}% 14
+\BOOKMARK [3][-]{subsubsection.0.2.5.2}{Create Course Flow}{subsection.0.2.5}% 15
+\BOOKMARK [2][-]{subsection.0.2.6}{Virtual Reality Orienteering}{section.0.2}% 16
+\BOOKMARK [3][-]{subsubsection.0.2.6.1}{Users}{subsection.0.2.6}% 17
+\BOOKMARK [3][-]{subsubsection.0.2.6.2}{Virtual Reality Orienteering Flow}{subsection.0.2.6}% 18
 \BOOKMARK [1][-]{section.0.3}{Design}{}% 19
 \BOOKMARK [2][-]{subsection.0.3.1}{Overview}{section.0.3}% 20
 \BOOKMARK [2][-]{subsection.0.3.2}{Technologies}{section.0.3}% 21
