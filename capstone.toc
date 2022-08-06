@@ -8,14 +8,14 @@
 \contentsline {section}{\numberline {2.}Requirements}{2}{section.0.2}%
 \contentsline {subsection}{\numberline {2.1.}Overview}{2}{subsection.0.2.1}%
 \contentsline {subsection}{\numberline {2.2.}Development Methodology}{2}{subsection.0.2.2}%
-\contentsline {subsection}{\numberline {2.3.}Course Creator}{2}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {2.3.}Course Creator}{3}{subsection.0.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1.}Users}{3}{subsubsection.0.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2.}Create Course Flow}{3}{subsubsection.0.2.3.2}%
 \contentsline {subsection}{\numberline {2.4.}Virtual Reality Orienteering}{4}{subsection.0.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1.}Users}{4}{subsubsection.0.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.}Users}{5}{subsubsection.0.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2.}Virtual Reality Orienteering Flow}{5}{subsubsection.0.2.4.2}%
-\contentsline {subsection}{\numberline {2.5.}Functional Requirements}{5}{subsection.0.2.5}%
-\contentsline {subsection}{\numberline {2.6.}Non-functional Requirements}{6}{subsection.0.2.6}%
+\contentsline {subsection}{\numberline {2.5.}Functional Requirements}{6}{subsection.0.2.5}%
+\contentsline {subsection}{\numberline {2.6.}Non-functional Requirements}{7}{subsection.0.2.6}%
 \contentsline {section}{\numberline {3.}Design}{18}{section.0.3}%
 \contentsline {subsection}{\numberline {3.1.}Overview}{18}{subsection.0.3.1}%
 \contentsline {subsection}{\numberline {3.2.}Technologies}{18}{subsection.0.3.2}%
