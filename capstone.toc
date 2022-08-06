@@ -23,32 +23,32 @@
 \contentsline {subsubsection}{\numberline {3.2.2.}Virtual Reality Orienteering}{21}{subsubsection.0.3.2.2}%
 \contentsline {subsection}{\numberline {3.3.}Class Diagrams}{23}{subsection.0.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1.}Course Creator}{23}{subsubsection.0.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.}Virtual Reality Orienteering}{23}{subsubsection.0.3.3.2}%
-\contentsline {subsection}{\numberline {3.4.}Database}{23}{subsection.0.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1.}Database Schema}{24}{subsubsection.0.3.4.1}%
-\contentsline {subsection}{\numberline {3.5.}Communication between Programs}{24}{subsection.0.3.5}%
-\contentsline {section}{\numberline {4.}Implementation}{26}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1.}Overview}{26}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2.}Course Creator}{26}{subsection.0.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1.}Authorization}{26}{subsubsection.0.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.}Courses}{26}{subsubsection.0.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3.}Locations}{29}{subsubsection.0.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4.}Questions}{30}{subsubsection.0.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5.}Answers}{30}{subsubsection.0.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.6.}Course Results}{31}{subsubsection.0.4.2.6}%
-\contentsline {subsubsection}{\numberline {4.2.7.}Web API}{32}{subsubsection.0.4.2.7}%
-\contentsline {subsection}{\numberline {4.3.}Virtual Reality Orienteering}{32}{subsection.0.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.}Authorization}{33}{subsubsection.0.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.}Displaying a Course}{33}{subsubsection.0.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3.}Tracking and Submitting Score Results}{34}{subsubsection.0.4.3.3}%
-\contentsline {section}{\numberline {5.}Testing}{36}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1.}Overview}{36}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2.}Input Validation}{36}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {5.3.}Unit Testing}{36}{subsection.0.5.3}%
-\contentsline {subsection}{\numberline {5.4.}Acceptance Testing}{38}{subsection.0.5.4}%
-\contentsline {subsection}{\numberline {5.5.}Integration Testing}{38}{subsection.0.5.5}%
-\contentsline {section}{\numberline {6.}Conclusion}{39}{section.0.6}%
-\contentsline {subsection}{\numberline {6.1.}Overview}{39}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {6.2.}Challenges}{39}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {6.3.}Future Work}{39}{subsection.0.6.3}%
-\contentsline {section}{Bibliography}{41}{subsection.0.6.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.}Virtual Reality Orienteering}{24}{subsubsection.0.3.3.2}%
+\contentsline {subsection}{\numberline {3.4.}Database}{24}{subsection.0.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.}Database Schema}{25}{subsubsection.0.3.4.1}%
+\contentsline {subsection}{\numberline {3.5.}Communication between Programs}{25}{subsection.0.3.5}%
+\contentsline {section}{\numberline {4.}Implementation}{27}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1.}Overview}{27}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2.}Course Creator}{27}{subsection.0.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.}Authorization}{27}{subsubsection.0.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.}Courses}{27}{subsubsection.0.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.}Locations}{30}{subsubsection.0.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4.}Questions}{31}{subsubsection.0.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5.}Answers}{31}{subsubsection.0.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6.}Course Results}{32}{subsubsection.0.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.7.}Web API}{33}{subsubsection.0.4.2.7}%
+\contentsline {subsection}{\numberline {4.3.}Virtual Reality Orienteering}{33}{subsection.0.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.}Authorization}{34}{subsubsection.0.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.}Displaying a Course}{34}{subsubsection.0.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3.}Tracking and Submitting Score Results}{35}{subsubsection.0.4.3.3}%
+\contentsline {section}{\numberline {5.}Testing}{37}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1.}Overview}{37}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2.}Input Validation}{37}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {5.3.}Unit Testing}{37}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {5.4.}Acceptance Testing}{39}{subsection.0.5.4}%
+\contentsline {subsection}{\numberline {5.5.}Integration Testing}{39}{subsection.0.5.5}%
+\contentsline {section}{\numberline {6.}Conclusion}{40}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1.}Overview}{40}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2.}Challenges}{40}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3.}Future Work}{40}{subsection.0.6.3}%
+\contentsline {section}{Bibliography}{42}{subsection.0.6.3}%

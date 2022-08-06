@@ -39,8 +39,8 @@ Assets are reusable items that can be used throughout the game. They can be of a
 \\
 Scenes contain the objects of the game. Oftentimes these are split into logical groupings such as main menu, individual levels, or the environment. \\
 \\
-Scripts are what controls the behavior of the GameObjects. Without scripts the game would be static and have no interaction or logic. Unity supports \C natively and is the standard used for scripting. A new script has two functions, \lstinline{Start()} and \lstinline{Update()}. \lstinline{Start()} is called once by Unity before gameplay begins which is used to setup initial configurations. \lstinline{Update()} is called once per frame update for the GameObject. This is used to handle anything that needs to be done over time in the gameplay, such as movement, triggering actions, or responding to user input.  
-
+Scripts are what controls the behavior of the GameObjects. Without scripts the game would be static and have no interaction or logic. Unity supports \C natively and is the standard used for scripting. A new script has two functions, \lstinline{Start()} and \lstinline{Update()}. \lstinline{Start()} is called once by Unity before gameplay begins which is used to setup initial configurations. \lstinline{Update()} is called once per frame update for the GameObject. This is used to handle anything that needs to be done over time in the gameplay, such as movement, triggering actions, or responding to user input.  \\
+\\
 \begin{lstlisting}[caption=New Script in Unity]
 using UnityEngine;
 using System.Collections;
@@ -67,17 +67,18 @@ Unity XR Interaction Toolkit is a cross-platform plugin used for virtual, mixed,
 
 \subsubsection{Course Creator}
 
-Figure \ref{Course Creator UML Class Diagram} shows the class diagram.
+Figure \ref{Course Creator UML Class Diagram} shows the class diagram. Each component of the Course Creator is comprised of a model, DbContext, and controller. The model describes what each object represents with minimal processing. The DbContext is the connection to the database. Entity Framework Core uses these DbContext classes linked with the models to provide the database operations. The controller provides the implementation and logic needed to handle operations. The controller makes use of the DbContexts to make changes to the data. The DbContext and Controller classes use Dependency Injection to separate the data and processing layers without needing to know the implementation details of each. The Startup class not shown links up the Dependency Injection needed for the DbContext and Controller. 
 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=.9\textwidth]{Design/assets/course-creator-class-diagram.png}
 	\caption[Course Creator UML Class Diagram]{\label{Course Creator UML Class Diagram}Course Creator UML Class Diagram}
 \end{figure}
+\clearpage
 
 \subsubsection{Virtual Reality Orienteering}
 
-Figure \ref{Virtual Reality Orienteering UML Class Diagram} shows the class diagram.
+Figure \ref{Virtual Reality Orienteering UML Class Diagram} shows the class diagram. The VRInputModule contains much of the logic and operations needed for the Virtual Reality Orienteering program. The VRInputModule also meditates the Pointer and ButtonTransitoner classes so that buttons respond to a click action. The VRInputModule calls the EnvironmentLibrary for loading new locations. The EnvironmentLibrary makes calls to the Web API and transforms the returned data into usable formats for the VRInputModule and uses the SkyBoxController to display the 360 Photos in the worldspace. 
 
 \begin{figure}[htb]
 	\centering
