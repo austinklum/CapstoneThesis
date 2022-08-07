@@ -177,7 +177,7 @@ public class Timer : MonoBehaviour
 \end{lstlisting} 
 
 Throughout the progress of the course, the point score and time score are kept track of in aggregate. When all locations have been completed the UI displays a game over message with the point score, time score, and total score. The Virtual Reality Orienteering program then makes a call to the Web API to \lstinline{POST /ImmersiveQuizAPI/SumbitScore} with the JSON body of \{\lstinline{studentId: "string", courseId : int, timeScore: float, pointScore: float}\}. The \lstinline{SubmitScore()} method making the call to the Web API is shown in Listing \ref{lst:SubmitScore}.
-\begin{lstlisting}[caption=Sumbit Score, label=lst:SubmitScore]
+\begin{lstlisting}[caption=Submit Score, label=lst:SubmitScore]
 private IEnumerator SubmitScore(string studentId, float timeScore, float pointScore)
 {
 	var json = JsonConvert.SerializeObject(new { studentId, CourseLibrary.Courses[currentCourse].CourseId, timeScore, pointScore });
