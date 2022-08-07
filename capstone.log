@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  6 AUG 2022 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  6 AUG 2022 18:59
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -747,17 +747,17 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 62--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
 
  []
 
@@ -768,12 +768,12 @@ File: Requirements/assets/course-creator-use-case-diagram.png Graphic file (typ
 e png)
 <use Requirements/assets/course-creator-use-case-diagram.png>
 Package pdftex.def Info: Requirements/assets/course-creator-use-case-diagram.pn
-g  used on input line 74.
+g  used on input line 76.
 (pdftex.def)             Requested size: 234.8775pt x 446.62373pt.
  [6
 
  <./Requirements/assets/course-creator-use-case-diagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
@@ -781,16 +781,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 File: Requirements/assets/cc-login.png Graphic file (type png)
 <use Requirements/assets/cc-login.png>
 Package pdftex.def Info: Requirements/assets/cc-login.png  used on input line 8
-3.
+5.
 (pdftex.def)             Requested size: 281.85587pt x 311.42336pt.
 <Requirements/assets/cc-access-denied.png, id=457, 713.66624pt x 210.28563pt>
 File: Requirements/assets/cc-access-denied.png Graphic file (type png)
 <use Requirements/assets/cc-access-denied.png>
 Package pdftex.def Info: Requirements/assets/cc-access-denied.png  used on inpu
-t line 90.
+t line 92.
 (pdftex.def)             Requested size: 281.85587pt x 83.05067pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
+Underfull \hbox (badness 10000) in paragraph at lines 88--95
 
  []
 
@@ -802,16 +802,16 @@ ng>]
 File: Requirements/assets/cc-manage-account.png Graphic file (type png)
 <use Requirements/assets/cc-manage-account.png>
 Package pdftex.def Info: Requirements/assets/cc-manage-account.png  used on inp
-ut line 97.
+ut line 99.
 (pdftex.def)             Requested size: 281.85587pt x 173.80717pt.
 <Requirements/assets/cc-add-verified-user.png, id=466, 545.03625pt x 240.9pt>
 File: Requirements/assets/cc-add-verified-user.png Graphic file (type png)
 <use Requirements/assets/cc-add-verified-user.png>
 Package pdftex.def Info: Requirements/assets/cc-add-verified-user.png  used on 
-input line 105.
+input line 107.
 (pdftex.def)             Requested size: 281.85587pt x 124.57765pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--108
+Underfull \hbox (badness 10000) in paragraph at lines 96--110
 
  []
 
@@ -823,16 +823,16 @@ rified-user.png>]
 File: Requirements/assets/cc-all-courses.png Graphic file (type png)
 <use Requirements/assets/cc-all-courses.png>
 Package pdftex.def Info: Requirements/assets/cc-all-courses.png  used on input 
-line 113.
+line 115.
 (pdftex.def)             Requested size: 281.85587pt x 108.93741pt.
 <Requirements/assets/cc-create-course.png, id=474, 258.9675pt x 223.33438pt>
 File: Requirements/assets/cc-create-course.png Graphic file (type png)
 <use Requirements/assets/cc-create-course.png>
 Package pdftex.def Info: Requirements/assets/cc-create-course.png  used on inpu
-t line 120.
+t line 122.
 (pdftex.def)             Requested size: 281.85587pt x 243.09909pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--123
+Underfull \hbox (badness 10000) in paragraph at lines 111--125
 
  []
 
@@ -845,7 +845,7 @@ urse.png>]
 File: Requirements/assets/cc-course-dashboard.png Graphic file (type png)
 <use Requirements/assets/cc-course-dashboard.png>
 Package pdftex.def Info: Requirements/assets/cc-course-dashboard.png  used on i
-nput line 128.
+nput line 130.
 (pdftex.def)             Requested size: 281.85587pt x 324.2768pt.
  [10
 
@@ -855,10 +855,10 @@ pt>
 File: Requirements/assets/cc-questions-expanded.png Graphic file (type png)
 <use Requirements/assets/cc-questions-expanded.png>
 Package pdftex.def Info: Requirements/assets/cc-questions-expanded.png  used on
- input line 136.
+ input line 138.
 (pdftex.def)             Requested size: 281.85587pt x 330.90993pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--139
+Underfull \hbox (badness 10000) in paragraph at lines 134--141
 
  []
 
@@ -869,7 +869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--139
 File: Requirements/assets/cc-create-location.png Graphic file (type png)
 <use Requirements/assets/cc-create-location.png>
 Package pdftex.def Info: Requirements/assets/cc-create-location.png  used on in
-put line 143.
+put line 145.
 (pdftex.def)             Requested size: 281.85587pt x 269.35034pt.
  [12
 
@@ -878,15 +878,15 @@ put line 143.
 File: Requirements/assets/cc-edit-answer.png Graphic file (type png)
 <use Requirements/assets/cc-edit-answer.png>
 Package pdftex.def Info: Requirements/assets/cc-edit-answer.png  used on input 
-line 152.
+line 154.
 (pdftex.def)             Requested size: 281.85587pt x 295.8295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--155
+Underfull \hbox (badness 10000) in paragraph at lines 149--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--155
+Underfull \hbox (badness 10000) in paragraph at lines 149--157
 
  []
 
@@ -897,31 +897,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--155
 File: Requirements/assets/cc-delete-course.png Graphic file (type png)
 <use Requirements/assets/cc-delete-course.png>
 Package pdftex.def Info: Requirements/assets/cc-delete-course.png  used on inpu
-t line 159.
+t line 161.
 (pdftex.def)             Requested size: 281.85587pt x 159.52501pt.
 <Requirements/assets/cc-score-viewer.png, id=507, 598.235pt x 230.36063pt>
 File: Requirements/assets/cc-score-viewer.png Graphic file (type png)
 <use Requirements/assets/cc-score-viewer.png>
 Package pdftex.def Info: Requirements/assets/cc-score-viewer.png  used on input
- line 166.
+ line 168.
 (pdftex.def)             Requested size: 281.85587pt x 108.53313pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--171
+Underfull \hbox (badness 10000) in paragraph at lines 158--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--181
 
  []
 
@@ -934,7 +934,7 @@ iewer.png>] [15]
 File: Requirements/assets/vr-use-case-diagram.png Graphic file (type png)
 <use Requirements/assets/vr-use-case-diagram.png>
 Package pdftex.def Info: Requirements/assets/vr-use-case-diagram.png  used on i
-nput line 185.
+nput line 187.
 (pdftex.def)             Requested size: 422.77664pt x 353.46785pt.
  [16
 
@@ -943,16 +943,16 @@ nput line 185.
 File: Requirements/assets/vr-keyboard.png Graphic file (type png)
 <use Requirements/assets/vr-keyboard.png>
 Package pdftex.def Info: Requirements/assets/vr-keyboard.png  used on input lin
-e 193.
+e 195.
 (pdftex.def)             Requested size: 281.85587pt x 176.20006pt.
 <Requirements/assets/vr-worldspace.png, id=526, 851.18pt x 554.57187pt>
 File: Requirements/assets/vr-worldspace.png Graphic file (type png)
 <use Requirements/assets/vr-worldspace.png>
 Package pdftex.def Info: Requirements/assets/vr-worldspace.png  used on input l
-ine 202.
+ine 204.
 (pdftex.def)             Requested size: 234.8775pt x 153.02815pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--204
+Underfull \hbox (badness 10000) in paragraph at lines 192--206
 
  []
 
@@ -964,14 +964,14 @@ ng>]
 File: Requirements/assets/vr-view-questions.png Graphic file (type png)
 <use Requirements/assets/vr-view-questions.png>
 Package pdftex.def Info: Requirements/assets/vr-view-questions.png  used on inp
-ut line 208.
+ut line 210.
 (pdftex.def)             Requested size: 281.85587pt x 180.2914pt.
 <Requirements/assets/vr-answer-incorrectly.png, id=534, 872.76062pt x 559.08875
 pt>
 File: Requirements/assets/vr-answer-incorrectly.png Graphic file (type png)
 <use Requirements/assets/vr-answer-incorrectly.png>
 Package pdftex.def Info: Requirements/assets/vr-answer-incorrectly.png  used on
- input line 215.
+ input line 217.
 (pdftex.def)             Requested size: 281.85587pt x 180.55pt.
  [18
 
@@ -981,7 +981,7 @@ Package pdftex.def Info: Requirements/assets/vr-answer-incorrectly.png  used on
 File: Requirements/assets/vr-game-over.png Graphic file (type png)
 <use Requirements/assets/vr-game-over.png>
 Package pdftex.def Info: Requirements/assets/vr-game-over.png  used on input li
-ne 221.
+ne 223.
 (pdftex.def)             Requested size: 281.85587pt x 180.24254pt.
 ) [19
 
@@ -1245,13 +1245,13 @@ Package rerunfilecheck Info: File `capstone.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
- 11583 strings out of 492484
- 176547 string characters out of 3131958
- 534282 words of memory out of 3000000
- 15303 multiletter control sequences out of 15000+200000
+ 11582 strings out of 492484
+ 176526 string characters out of 3131958
+ 534283 words of memory out of 3000000
+ 15302 multiletter control sequences out of 15000+200000
  10537 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,10n,71p,1507b,1824s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,10n,71p,1509b,1824s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Prog
 rams/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/MiTek
 2.9.7269/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiTek2.9.7269/fo
@@ -1259,7 +1259,7 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
 ublic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on capstone.pdf (53 pages, 6829998 bytes).
+Output written on capstone.pdf (53 pages, 6830749 bytes).
 PDF statistics:
  986 PDF objects out of 1000 (max. 8388607)
  361 named destinations out of 1000 (max. 500000)
