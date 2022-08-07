@@ -19,18 +19,8 @@ public class HomeController : Controller
 }
 \end{lstlisting} 
 \subsubsection{Courses}
-The course is the high level object with which the locations, questions, and answers become associated with. A course can be added, updated, or deleted. The \lstinline{CoursesController} handles all of these actions. Each of these actions has a corresponding View Razor page. The basic course model looks like the following:
-\begin{lstlisting}[caption=Course Model, label=lst:CourseModel]
-public class Course
-{
-	public int CourseId { get; set; }
-	
-	[DisplayName("Name")]
-	public string Name { get; set; }
-
-}
-\end{lstlisting}
- 
+The course is the high level object with which the locations, questions, and answers become associated with. A course can be added, updated, or deleted. The \lstinline{CoursesController} handles all of these actions. Each of these actions has a corresponding View Razor page.\\
+\\
 The create and edit pages are similar to the other pages for the locations, questions, and answers, so this section will not go in depth on them, but instead elaborate further on the details and delete pages. The details page displays not only the course model information, but also all information relating to the course. To make the related course information modularize and reusable, the developer made use of ``View Components". View Components render a chunk of HTML output within another markup's file. This breaks up large markup files into smaller parts, reduces duplication of markup content, and provides an opportunity to use logic to control the rendered HTML. Each of the dependent classes on a course has a corresponding View Component which lists the data relating to the course. This can be seen in Listing \ref{lst:CourseDetails} of the course details page on line 30:
  \begin{lstlisting}[style=htmlcssjs, caption=Course Details Razor Page, label=lst:CourseDetails]
  @model ImmersiveQuiz.Models.Course
@@ -100,32 +90,8 @@ The create and edit pages are similar to the other pages for the locations, ques
  \end{lstlisting}
  
 \subsubsection{Locations}
-The Location is the container for the questions and answers. The Location is also responsible for the management of the 360 photos. While it is possible to store images and files directly into the database using BLOBS, this is inefficient in storage and retrieval. Instead the developer made use of File System storage. Thus, the location's database record instead contains a reference to where the image lives, rather than the image itself. A location can be added, updated, or deleted. The \lstinline{LocationsController} handles all of these actions. Each of these actions has a corresponding View Razor page. The Location model is shown in Listing \ref{lst:LocationModel}.
-\begin{lstlisting}[caption=Location Model, label=lst:LocationModel]
-public class Location
-{
-	public int LocationId { get; set; }
-	
-	public string Name { get; set; }
-	
-	public Guid ImageGuid { get; set; }
-	
-	public string ImageExtension { get; set; }
-	
-	public string ImagePath {
-		get
-		{
-			return $"/images/{ImageGuid}{ImageExtension}";
-		}
-	}
-
-	public int CourseId { get; set; }
-	
-	[NotMapped]
-	public Course Course { get; set; }
-}
-\end{lstlisting}
-
+The Location is the container for the questions and answers. The Location is also responsible for the management of the 360 photos. While it is possible to store images and files directly into the database using BLOBS, this is inefficient in storage and retrieval. Instead the developer made use of File System storage. Thus, the location's database record instead contains a reference to where the image lives, rather than the image itself. A location can be added, updated, or deleted. The \lstinline{LocationsController} handles all of these actions. Each of these actions has a corresponding View Razor page.\\
+\\
 The Location keeps track of the \lstinline{ImageGuid} and \lstinline{ImageExtenstion} to create the \lstinline{ImagePath}. Each uploaded image is given a globally unique identifier (GUID) which \qquote{is a 128-bit number created by the Windows operating system or another Windows application to uniquely identify specific components, hardware, software, files, user accounts, database entries and other items.}{guidDef}. Assigning each image with a GUID guarantees unique image file names when storing in the File System storage and discourages malicious users from scrapping the File System with predictive names. The process for uploading a new image can be seen in Listing \ref{lst:ImageUpload}.
 \begin{lstlisting}[caption=Uploading an Image, label=lst:ImageUpload]
 private Guid UploadImage(IFormFile image)
@@ -141,71 +107,14 @@ private Guid UploadImage(IFormFile image)
 \end{lstlisting} 
 
 \subsubsection{Questions}
-The Question is the container for answers and contains the content for question being asked. A question can be added, updated, or deleted. The \lstinline{QuestionsController} handles all of these actions. Each of these actions has a corresponding View Razor page. The Question model is shown in Listing \ref{lst:QuestionModel}.
-\begin{lstlisting}[caption=Question Model, label=lst:QuestionModel]
-public class Question
-{
-	public int QuestionId { get; set; }
-	
-	[DisplayName("Question")]
-	public string Content { get; set; }
-	
-	public int LocationId { get; set; }
-	
-	[NotMapped]
-	public Location Location { get; set; }
-	
-	[NotMapped]
-	public List<Answer> Answers { get; set; }
-}
-\end{lstlisting}
+The Question is the container for answers and contains the content for question being asked. A question can be added, updated, or deleted. The \lstinline{QuestionsController} handles all of these actions. Each of these actions has a corresponding View Razor page. 
 
 \subsubsection{Answers}
-The Answer is the lowest-level object for the Course Creator, containing nothing but the answer content and a boolean for a correct answer.  A answer can be added, updated, or deleted. The \lstinline{AnswersController} handles all of these actions. Each of these actions has a corresponding View Razor page. The Answer model is shown in Listing \ref{lst:AnswerModel}.
-\begin{lstlisting}[caption=Answer Model, label=lst:AnswerModel]
-public class Answer
-{
-	public int AnswerId { get; set; }
-	
-	[DisplayName("Answer")]
-	public string Content { get; set; }
-	
-	public int QuestionId { get; set; }
-	
-	[DisplayName("Correct Answer")]
-	public bool IsCorrect { get; set; }
-	
-	[NotMapped]
-	public Question Question { get; set; }
-}
-\end{lstlisting}
+The Answer is the lowest-level object for the Course Creator, containing nothing but the answer content and a boolean for a correct answer.  A answer can be added, updated, or deleted. The \lstinline{AnswersController} handles all of these actions. Each of these actions has a corresponding View Razor page. 
 
 \subsubsection{Course Results}
-The course results is handled by the Score class which contains the student ID, Time Score, and Point Score. The Total Score is calculated by read only property which adds the time score and point score together.  A score can be added, updated, or deleted to give a verified user full control over the scores. The scores will typically come from the Virtual Reality Orienteering program in a POST request. The \lstinline{ScoresController} handles all of these actions. Each of these actions has a corresponding View Razor page. The Score model is shown in Listing \ref{lst:ScoreModel}.
-\begin{lstlisting}[caption=Score Model, label=lst:ScoreModel]
-public class Score
-{
-	public int ScoreId { get; set; }
-	
-	[DisplayName("Student ID")]
-	public string StudentId { get; set; }
-	
-	public int CourseId { get; set; }
-	
-	[DisplayName("Time Score")]
-	public decimal TimeScore { get; set; }
-	
-	[DisplayName("Point Score")]
-	public decimal PointScore { get; set; }
-	
-	public decimal TotalScore { 
-		get 
-		{
-			return TimeScore + PointScore;
-		}
-	}
-}
-\end{lstlisting}
+The course results is handled by the Score class which contains the student ID, Time Score, and Point Score. The Total Score is calculated by read only property which adds the time score and point score together.  A score can be added, updated, or deleted to give a verified user full control over the scores. The scores will typically come from the Virtual Reality Orienteering program in a POST request. The \lstinline{ScoresController} handles all of these actions. Each of these actions has a corresponding View Razor page. 
+
 \subsubsection{Web API}
 The Web API is a RESTful API which controls all of the allowed external endpoints. This Web API is how the Virtual Reality Orienteering program is able to communicate with the Course Creator. Courses are loaded and scores submitted via requests to this Web API. The Web API is secured using a filter with Basic Authentication and a HTTPS connection. Using a tool called Swagger the request documentation is auto generated, providing an easy visualization of the endpoints, schema, and resources available for the Web API. The endpoints can be seen in Figure \ref{fig:WebApiEndpoints}.
 \begin{figure}[htb]
@@ -268,7 +177,7 @@ public class Timer : MonoBehaviour
 \end{lstlisting} 
 
 Throughout the progress of the course, the point score and time score are kept track of in aggregate. When all locations have been completed the UI displays a game over message with the point score, time score, and total score. The Virtual Reality Orienteering program then makes a call to the Web API to \lstinline{POST /ImmersiveQuizAPI/SumbitScore} with the JSON body of \{\lstinline{studentId: "string", courseId : int, timeScore: float, pointScore: float}\}. The \lstinline{SubmitScore()} method making the call to the Web API is shown in Listing \ref{lst:SubmitScore}.
-\begin{lstlisting}[caption=Sumbit Score, label=lst:SubmitScore]
+\begin{lstlisting}[caption=Submit Score, label=lst:SubmitScore]
 private IEnumerator SubmitScore(string studentId, float timeScore, float pointScore)
 {
 	var json = JsonConvert.SerializeObject(new { studentId, CourseLibrary.Courses[currentCourse].CourseId, timeScore, pointScore });
