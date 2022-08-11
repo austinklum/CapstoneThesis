@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  6 AUG 2022 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  11 AUG 2022 16:42
 entering extended mode
 **./capstone.tex
 (capstone.tex
@@ -1240,14 +1240,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
  (capstone.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
-Package rerunfilecheck Info: File `capstone.out' has not changed.
-(rerunfilecheck)             Checksum: CF3B15461C0DC1EDDF79FE31BBBC79E4;3695.
+
+
+Package rerunfilecheck Warning: File `capstone.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `capstone.out':
+(rerunfilecheck)             Before: 4B190C9A87E9EE28E51DD7BA64666E5B;3749
+(rerunfilecheck)             After:  CF3B15461C0DC1EDDF79FE31BBBC79E4;3695.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
  11582 strings out of 492484
  176526 string characters out of 3131958
- 534283 words of memory out of 3000000
+ 535283 words of memory out of 3000000
  15302 multiletter control sequences out of 15000+200000
  10537 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1259,7 +1266,7 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/p
 ublic/amsfonts/cm/cmr6.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><D:/Programs/MiTek2.9.7269/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on capstone.pdf (53 pages, 6830748 bytes).
+Output written on capstone.pdf (53 pages, 6830792 bytes).
 PDF statistics:
  986 PDF objects out of 1000 (max. 8388607)
  361 named destinations out of 1000 (max. 500000)
